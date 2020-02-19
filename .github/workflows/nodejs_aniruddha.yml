@@ -19,4 +19,4 @@ jobs:
     - run: npm run build --if-present
       
       env:
-        CI: true
+        CI: False
