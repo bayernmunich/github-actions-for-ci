@@ -16,7 +16,11 @@ steps:
     checkLatest: true
   displayName: 'Install Node.js'
 
-- script: Aniruddha
+- script: |
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- script: |
+    mkdir D:\Aniruddha
+  displayName: 'Aniruddha Jere'
