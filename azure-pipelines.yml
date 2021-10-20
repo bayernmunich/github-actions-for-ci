@@ -7,8 +7,6 @@ trigger:
 - master
 - add-test
 - '*'
-variables:
-- group: Test2
 
 pool:
   vmImage: 'ubuntu-latest'
